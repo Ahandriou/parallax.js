@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #555;
+  font-family: monospace;
+  font-size: 18px;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.ciel {
+  overflow: hidden;
+}
+.ciel .id_16 {
+  background: url(../img/16_Ciel.png) repeat-x 0/100% auto;
+  position: absolute;
+  -o-object-fit: fill;
+     object-fit: fill;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-animation: ciel 25s linear infinite;
+          animation: ciel 25s linear infinite;
+}
+
+@-webkit-keyframes ciel {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100vw 0;
+  }
+}
+
+@keyframes ciel {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100vw 0;
+  }
+}
+.sol {
+  max-width: 100vw;
+}
+.sol .id_15 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}
+
+.cv_rouge {
+  position: absolute;
+  top: 22%;
+  left: 71%;
+  max-width: 100vw;
+}
+.cv_rouge .id_13 {
+  width: 80%;
+  height: auto;
+}
+
+.corde_rouge {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  max-width: 100vw;
+}
+.corde_rouge .id_14 {
+  width: 80%;
+  height: auto;
+}
+
+.cv_vert {
+  position: absolute;
+  top: 35%;
+  left: 73%;
+  max-width: 100vw;
+}
+.cv_vert .id_11 {
+  width: 80%;
+  height: auto;
+}
+
+.corde_vert {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  max-width: 100vw;
+}
+.corde_vert .id_12 {
+  width: 80%;
+  height: auto;
+}
+
+.cv_mauve {
+  position: absolute;
+  top: 31%;
+  left: 67%;
+  max-width: 100vw;
+}
+.cv_mauve .id_09 {
+  width: 80%;
+  height: auto;
+}
+
+.corde_mauve {
+  position: absolute;
+  top: 33%;
+  left: 65%;
+  max-width: 100vw;
+}
+.corde_mauve .id_10 {
+  width: 80%;
+  height: auto;
+}
+
+.chateau {
+  position: absolute;
+  top: 6%;
+  left: 25%;
+  max-width: 100vw;
+}
+.chateau .id_08 {
+  width: 90%;
+  height: auto;
+}
+
+.arbre {
+  position: absolute;
+  top: 33%;
+  left: 5%;
+  max-width: 100vw;
+}
+.arbre .id_05 {
+  width: 85%;
+  height: auto;
+}
+
+.corde_pinata {
+  position: absolute;
+  top: 63%;
+  left: 10%;
+  max-width: 100vw;
+}
+.pinata {
+  position: absolute;
+  top: 75%;
+  left: 7%;
+  max-width: 100vw;
+}
+.soleil {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  max-width: 100vw;
+}
+.soleil .id_04 {
+  width: 80%;
+  height: auto;
+}
+
+.oiseau_0 {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  max-width: 100vw;
+}
+.oiseau_0 .id_00 {
+  width: 90%;
+  height: auto;
+}
+
+.oiseau_1 {
+  position: absolute;
+  top: 35%;
+  left: 28%;
+  max-width: 100vw;
+}
+.oiseau_2 {
+  position: absolute;
+  top: 18%;
+  left: 16%;
+  max-width: 100vw;
+}
+.oiseau_3 {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  max-width: 100vw;
+}
+.bouton {
+  position: absolute;
+  top: 62%;
+  left: 76%;
+  max-width: 100vw;
+  cursor: pointer;
+  transition: width 1s, height 1s, transform 1s;
+}
+.bouton .id_0_0 {
+  width: 83%;
+  height: auto;
+}
+.bouton:hover {
+  top: 61.5%;
+  left: 75.5%;
+}
+.bouton:hover .id_0_0 {
+  width: 87%;
+  height: auto;
+}/*# sourceMappingURL=styles.css.map */
